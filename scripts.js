@@ -20,3 +20,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 1000 + index * 300)
   })
 })
+
+function fireConfetti() {
+  confetti({
+    particleCount: 900,
+    spread: 90,
+    origin: { y: 0.6 }
+  })
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  fireConfetti()
+})
