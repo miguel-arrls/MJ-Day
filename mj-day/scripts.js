@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const header = document.querySelector('.animate-header')
-  const figure = document.querySelectorAll('animate-figure')
+  const figure = document.querySelectorAll('figure')
 
   header.style.opacity = 0
   header.style.transform = 'translateY(-50px)'

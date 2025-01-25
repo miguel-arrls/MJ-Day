@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Geral */
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+img.figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: min-content;
+  max-width: 100%;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  text-align: center;
+}
+
+.poema {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Media Query para telas menores que 600px */
+@media screen and (max-width: 600px) {
+  .poema {
+    width: 95%;
+    padding: 15px;
+  }
+
+  header {
+    text-align: center;
+  }
+}
+
+/* Media Query para telas menores que 400px */
+@media screen and (max-width: 400px) {
+  .poema {
+    width: 100%;
+    padding: 10px;
+  }
+
+  figcaption {
+    font-size: 0.8em;
+  }
+}
